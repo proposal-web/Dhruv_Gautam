@@ -1,0 +1,113 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('images/proposal.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+  }
+  
+  
+  .container {
+    margin-top: 10%;
+    background: rgba(0, 0, 0, 0.6); 
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 80%; 
+    max-width: 500px;
+  }
+  
+  
+  h1 {
+    font-size: 2.5em;
+    color: #ffebcd; 
+    margin-bottom: 20px;
+  }
+  
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  
+  button {
+    font-size: 1.2em;
+    padding: 8px 16px; 
+    margin: 8px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff; 
+    transition: transform 0.2s, background-color 0.3s;
+    width: auto; 
+  }
+  
+  
+  #yes-btn {
+    background-color: #6a9f58; 
+  }
+  
+ 
+  #no-btn {
+    background-color: #b54e4a; 
+  }
+  
+ 
+  button:hover {
+    transform: scale(1.1);
+    background-color: #ffffff;
+    color: #333; 
+  }
+  
+  
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2em; 
+    }
+  
+    .container {
+      margin-top: 15%;
+      width: 90%; 
+    }
+  
+    button {
+      font-size: 1em; 
+      padding: 6px 12px; 
+    }
+  }
+  
+ 
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.8em;
+    }
+  
+    button {
+      font-size: 0.9em; 
+      padding: 5px 10px; 
+      width: 100%; 
+      margin: 5px 0; 
+    }
+  
+    .container {
+      margin-top: 20%;
+    }
+  }
+ 
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;    
+  }
+  
+  footer span {
+    font-weight: bold;
+  }
+  
